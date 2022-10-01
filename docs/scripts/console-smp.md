@@ -14,6 +14,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 
 ![Console Log](../images/cl_2.jpg)
 
+### Features
 - Saves any message sent to the console on a text file (path configurable).
 - Saving is not reset on every start-up (contrary to Foobar2000's native console).  
 - File is only reset when certain file size is reached (configurable).

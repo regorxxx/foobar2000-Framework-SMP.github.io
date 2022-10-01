@@ -14,6 +14,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
  
 ![Statistics Framework 1](../images/sf_1.png)
 
+### Features
 - Create charts: bars, scatter, line.  
 - Colors, axis, background, margins, labels and points are customizable.
 - Built-in color palettes using [Chroma](https://gka.github.io/chroma.js/) and [ColorBrewer](https://colorbrewer2.org), also colorblind friendly presets.

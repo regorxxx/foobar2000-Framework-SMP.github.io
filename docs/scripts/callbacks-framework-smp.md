@@ -14,6 +14,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 
 ![World Map usage](../images/cb_1.png)
  
+### Features
 - Adds event listeners to SMP callbacks.
 - Removes event listeners on demand.
 - Allows to find if an event listener is active.
