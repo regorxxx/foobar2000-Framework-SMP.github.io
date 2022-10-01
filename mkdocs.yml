@@ -1,0 +1,46 @@
+site_name: regorxxx
+copyright: Copyright &copy; 2022 regorxxx
+theme:
+  name: material
+  icon:
+    logo: material/home
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material//brightness-7
+        name: "Switch to light mode"
+    - scheme: default
+      primary: deep purple
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: "Switch to dark mode"
+markdown_extensions:
+  - admonition
+  - attr_list
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/regorxxx
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - foobar2000 SMP Framework Scripts: index.md
+  - Menu Framework: scripts/menu-framework-smp.md
+  - Statistics Framework: scripts/statistics-framework-smp.md
+  - Console: scripts/console-smp.md
+  - Callbacks Framework: scripts/callbacks-framework-smp.md
