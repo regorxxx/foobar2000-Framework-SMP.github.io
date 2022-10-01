@@ -2,9 +2,9 @@
 hide: navigation
 ---
 
-# Decice Priority
+# Menu Framework
 
-[Download :material-download:](https://github.com/regorxxx/Device-Priority-SMP){ .md-button }
+[Download :material-download:](https://github.com/regorxxx/Menu-Framework-SMP){ .md-button }
 
 ## Overview
 

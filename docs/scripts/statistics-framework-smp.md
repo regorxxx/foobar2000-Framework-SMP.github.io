@@ -2,9 +2,9 @@
 hide: navigation
 ---
 
-# Playlist Tools
+# Statistics Framework
 
-[Download :material-download:](https://github.com/regorxxx/Playlist-Tools-SMP){ .md-button }
+[Download :material-download:](https://github.com/regorxxx/Statistics-Framework-SMP){ .md-button }
 
 ## Overview
 

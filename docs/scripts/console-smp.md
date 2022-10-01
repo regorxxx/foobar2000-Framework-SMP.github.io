@@ -2,9 +2,9 @@
 hide: navigation
 ---
 
-# Search by Distance
+# Console
 
-[Download :material-download:](https://github.com/regorxxx/Search-by-Distance-SMP){ .md-button }
+[Download :material-download:](https://github.com/regorxxx/Console-SMP){ .md-button }
 
 ## Overview
 
