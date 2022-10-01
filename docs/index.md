@@ -11,7 +11,7 @@ They are not meant for final users, but developers.
 |Script|Version|SMP|Release Date|
 |:---|:---|:---|:---|
 |[Menu Framework](scripts/menu-framework-smp)|v2.1.1|1.6.1+|01st October 2022|
-|[Statistics Framework](scriptS/statistics-framework-smp)|v0.2.0|1.6.1+|04th August 2022|
+|[Statistics Framework](scripts/statistics-framework-smp)|v0.2.0|1.6.1+|04th August 2022|
 |[Console](scripts/console-smp)|v1.2.1|1.6.1+|14th August 2022|
 |[Callbacks Framework](scripts/callbacks-framework-smp)|v1.2.1|1.6.1+|01st October 2022|
 
