@@ -12,7 +12,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
  and [foobar2000](https://www.foobar2000.org) which allows to permanently save console logs
  to a file using the existing method (console.log).
 
-![Console Log](../images/cl_2.png)
+![Console Log](../images/cl_2.jpg)
 
 - Saves any message sent to the console on a text file (path configurable).
 - Saving is not reset on every start-up (contrary to Foobar2000's native console).  

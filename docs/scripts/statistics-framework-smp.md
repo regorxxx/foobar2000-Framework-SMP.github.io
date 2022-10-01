@@ -22,9 +22,9 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 - Multiple series can be drawn on the same chart.
 - Built-in menus to customize charts.
 
-![Statistics Framework 2](../images/sf_2.png)
+![Statistics Framework 2](../images/sf_2.gif)
 
-![Statistics Framework 3](../images/sf_2.png)
+![Statistics Framework 3](../images/sf_2.gif)
 
 !!! info
 	See repository for usage details.
