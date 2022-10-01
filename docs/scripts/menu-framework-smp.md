@@ -8,33 +8,28 @@ hide: navigation
 
 ## Overview
 
-[Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monkey_panel/) script
- for [foobar2000](https://www.foobar2000.org/), built within a button. 
- Automate foobar2000's output without having to select devices manually every time one
- is disconnected/connected. Wireless, headphone, and server devices auto-switch made easy.
+A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monkey_panel)
+ and [foobar2000](https://www.foobar2000.org) which allows to easily create customizable menus
+ on demand which can be easily refactored, moved or edited without working with static ids. A lifesaver.
+ 
+![Menu Framework](../images/mf_1.png)
 
-- Export Device List: after connecting all devices desired to be used at some point,
- the list can be exported to be able to set them at a later point as prioritized devices
- (even if they are not connected).
-- 1-5 slots for prioritized devices: set the order in which the devices must be set as output.
- Device 1 would be used (if available) before Device 2 and so on...
-- Server friendly: some wireless devices pause playback when they are disconnected, 
-thus requiring to manually start playback again even if the device has been changed 
-(manually or automatically). The script checks if playback is paused after swapping 
-devices and will continue it automatically in those cases for a seamless change 
-between devices when you switch them off/on.
-- Fully Wine - Unix - non IE SOs compatible.
+## The problem with current SMP menus
+Menus are usually coded at multiple places which must be linked by ID, storing and sharing
+ the different variables for menus and submenus when you have multiple objects using them,
+ etc. It leads to 2 clear problems: non readability and maintenance nightmare.
+ 
+![Menu Framework old 1](../images/mf_2.png)
+![Menu Framework old 2](../images/mf_3.png)
 
-The button can be loaded within a toolbar or as an independent button. 
-It's fully compatible with my other scripts which also use a toolbar (see at bottom), 
-so the button can be simply merged with your already existing toolbar panel easily.
-	
-![Device Priority](../images/dp.gif)
+ - Creates menus on demand on panels without needing to create specific methods for every script,
+ calculate IDs, etc.  
+- Menus are pushed to a list and created automatically on demand, linking the entries to their
+ idx without needing a 'switch' block or leaving holes to ensure idx get enough numbers to expand the script.  
+- The main utility of this helper is greatly reducing coding for simple menus and having both,
+ the menu logic creation and the menus' functions on the same place. Creation order is done 
+ following entry/menus addition.
+- Can concatenate multiple menus on btn_up().
 
-!!! question
-	Compatible with (toolbar):  
-    - [Search by Distance](scripts/search-by-distance-smp): Creates intelligent "spotify-like"
-	playlist using high-level data from tracks and computing their similarity using genres/styles.  
-    - [Playlist Tools](scripts/playlist-tools-smp): Offers different pre-defefined examples for 
-	intelligent playlist creation.  
-	- [ListenBrainz](scripts/listenbrainz-smp): Integrates Listenbrainz's feedback and recommendations.  
+!!! info
+	See repository for usage details.
