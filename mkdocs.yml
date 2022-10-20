@@ -42,5 +42,6 @@ nav:
   - foobar2000 SMP Framework Scripts: index.md
   - Menu Framework: scripts/menu-framework-smp.md
   - Statistics Framework: scripts/statistics-framework-smp.md
-  - Console: scripts/console-smp.md
   - Callbacks Framework: scripts/callbacks-framework-smp.md
+  - Console: scripts/console-smp.md
+  - Profiler: scripts/profiler-smp.md

@@ -25,7 +25,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 
 ![Statistics Framework 2](../images/sf_2.gif)
 
-![Statistics Framework 3](../images/sf_2.gif)
+![Statistics Framework 3](../images/sf_3.gif)
 
 !!! info
 	See repository for usage details.
