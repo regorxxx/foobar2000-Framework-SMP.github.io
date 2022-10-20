@@ -28,20 +28,26 @@ JavaScript [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monke
 ![Profiler 2](../images/pf_1.png)
   
 ###  Available tests
-- Array concatenation
-- Array copying
-- Loops
-- Comparison operators
-- Comparison statements
-- (De-)composition
-- Guards
-- Map:access
-- Map:creation
-- Object iteration
-- Recursion
-- Split
-- Tags:retrieval:info
-- Tags:retrieval:tf
+- Arrays:
+	- Array concatenation
+	- Array copying
+- Maps and objects:
+	- Map:access
+	- Map:creation
+	- Object iteration
+- Strings:
+	- Split
+- Functions:
+	- Recursion
+- Standard operations:
+	- Loops
+	- Comparison operators
+	- Comparison statements
+	- (De-)composition
+	- Guards
+- Foobar 2000 /SMP specifics:
+	- Tags:retrieval:info
+	- Tags:retrieval:tf
 
 !!! info
 	See repository for usage details.
