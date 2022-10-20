@@ -17,13 +17,13 @@ JavaScript [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monke
 
 ### Features
 - Report: average, max, minimum and total.
-  - Execution time.
-  - Memory.
- - Built-in tests, easily expandable.
+	- Execution time.
+	- Memory.
+- Built-in tests, easily expandable.
 - Output:
-  - JSON
-  - TXT tables
-  - Popups
+	- JSON
+	- TXT tables
+	- Popups
 
 ![Profiler 2](../images/pf_1.png)
   
