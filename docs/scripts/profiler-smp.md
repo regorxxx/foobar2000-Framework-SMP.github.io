@@ -25,6 +25,8 @@ JavaScript [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monke
   - TXT tables
   - Popups
 
+![Profiler 2](../images/pf_1.png)
+  
 ###  Available tests
 - Array concatenation
 - Array copying
@@ -40,8 +42,6 @@ JavaScript [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monke
 - Split
 - Tags:retrieval:info
 - Tags:retrieval:tf
-
-![Profiler 2](../images/pf_1.png)
 
 !!! info
 	See repository for usage details.

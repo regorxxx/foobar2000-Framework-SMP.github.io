@@ -12,6 +12,8 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
  and [foobar2000](https://www.foobar2000.org) which allows to easily attach and manage event
  listeners associated to SMP callbacks without wrapping or repeating code.  A lifesaver. 
 
+![Standard callbacks](../images/cb_1.png)
+ 
 ![Event listeners](../images/cb_2.png)
  
 ### Features
@@ -23,7 +25,6 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 - Implements [SPM planned design](https://github.com/TheQwertiest/foo_spider_monkey_panel/projects/1).
 - Bypasses common limitation of including files with existing callbacks, wrapping, etc.
 
-![Standard callbacks](../images/cb_1.png)
 
 !!! info
 	See repository for usage details.
